@@ -1,0 +1,129 @@
+body {
+	height: 250vh;
+	width: 100vw;
+	text-align: center;
+	color: #FFD100;
+	margin: 0px; padding: 0px;
+	background-color: #333533;
+	font-family: "ivypresto-display", serif;
+	font-weight: 400;
+	font-style: normal;
+	background-image: url("riverdellBackground.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+a {
+	color: #FFD100;
+	text-decoration: none;
+}
+
+.container0{
+	height: 10vh;
+	background-color: #202020;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+  }
+}
+
+.container1{
+	height: 50vh;
+
+	background: rgba( 255, 255, 255, 0.25 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4.5px );
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.container2{
+	height: 80vh;
+	width: 100vw;
+	
+	display: grid;
+	place-items: center;
+	color: white;
+	
+}
+
+#header {
+	font-size: 5em;
+	font-family: "ivypresto-display", serif;
+	font-weight: 700;
+	font-style: normal;
+	padding-top: 5%;
+}
+
+.subheader1 {
+	font-size: 1em;
+}
+
+.about {
+	font-size: 1.5em;
+	width: 65%;
+}
+
+.container3 {
+	height: 80vh;
+	width: 100%;
+	
+	background: rgba( 255, 255, 255, 0.25 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4.5px );
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	
+	display: grid;
+	place-items: center;
+}
+
+.container4 {
+	height: 80vh;
+	display: grid;
+	place-items: center;
+}
+
+.timerContainer{
+	font-size: 4em;
+	color: white;
+}
+
+#timerSubtext{
+	color: white;
+	font-size: 0.25em;
+}
+
+.participantsHeader {
+	font-size: 4em;
+}
+
+.participantsItem {
+	font-size: 1em;
+	margin: 3% 0%;
+}
+
+.container5{
+	height: 10vh;
+	background-color: #202020;
+	display: flex;
+	justify-content: center;
+	align-items: center;
